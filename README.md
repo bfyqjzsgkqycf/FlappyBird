@@ -19,7 +19,7 @@ This is a Java implementation of the classic Flappy Bird game. The game features
 - **Random Cloud Generation**: Clouds are randomly generated in the foreground at a certain probability, adding visual richness to the game.
 - **Double Buffering**: To avoid screen flickering caused by resource competition between threads, the game uses double buffering technology to draw game content.
 ## 4. How to Run
-1. Ensure that you have the Java Development Kit (JDK) installed on your system.
+1. Ensure that you have the Java Development Kit (JDK) version 8 installed on your system.
 2. Clone this repository to your local machine.
 3. Navigate to the project directory in the terminal.
 4. Compile the Java source files.
