@@ -13,7 +13,7 @@ This is a Java implementation of the classic Flappy Bird game. The game features
   - `GameOverAnimation.java`: Displays the game over interface with scores.
 - `util` Package:
   - `GameUtil.java`: A utility class that provides methods for loading images, calculating probabilities, and getting random numbers.
-- - `Constant.java`: Defines various constants used in the game, such as window size, image paths, and game speeds.
+  - `Constant.java`: Defines various constants used in the game, such as window size, image paths, and game speeds.
 ## 3. Key Features
 - **Multiple Game States**: The game has three states: `GAME_READY`, `GAME_START`, and `STATE_OVER`. Players can start the game by pressing the space bar on the start interface, and restart the game after it is over.
 - **Random Cloud Generation**: Clouds are randomly generated in the foreground at a certain probability, adding visual richness to the game.
@@ -29,6 +29,6 @@ This is a Java implementation of the classic Flappy Bird game. The game features
 ## 6. Dependencies
 The project mainly uses the Java standard library, and there are no external dependencies.
 ## 7. Future Improvements
-- Add more game elements, such as power - ups or obstacles.
+Add more game elements, such as power - ups or obstacles.
 Optimize the game performance and user experience.
 Implement a ranking system to record and display high scores.
