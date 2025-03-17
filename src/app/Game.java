@@ -51,6 +51,7 @@ public class Game extends Frame {
         setTitle(GAME_TITLE); // 设置窗口标题
         setLocation(FRAME_X, FRAME_Y); // 窗口初始位置
         setResizable(false); // 设置窗口大小不可变
+        setLocationRelativeTo(null); // 窗口居中显示
         // 添加关闭窗口事件 (监听窗口发生的事件, 派发给参数对象, 参数对象调用对应的方法)
         addWindowListener(new WindowAdapter() {
             @Override
